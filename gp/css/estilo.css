@@ -1,0 +1,62 @@
+.bg-red{
+  background:#dc3545 !important;
+}
+.bg-orange{
+  background:#fd7e14 !important;
+}
+.bg-purple{
+  background:#6f42c1!important;
+}
+.bg-purple-white{
+  background:#9932cc!important;
+}
+.bg-yellow{
+  background:#ffc107 !important;
+}
+.bg-yellow-dark{
+  background:#CCA351 !important;
+}
+.bg-green{
+  background:#28a745 !important;
+}
+.bg-danger{
+  background:#dc3545 !important;
+}
+.bg-price{
+  background:#3f6fff !important;
+}
+.bg-greem-paste{
+  background:#9bd771 !important;
+}
+
+
+.bg-dark{
+	color:white;
+}
+
+.border-amarelo {
+  border-color: #CCA351 !important;
+}
+.badge-amarelo {
+  color: #fff;
+  background-color: #CCA351;
+}
+
+.border-verde {
+  border-color: #9bd771 !important;
+}
+.badge-verde {
+  color: #fff;
+  background-color: #9bd771;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+main{
+  min-height: 800px;
+}
+footer{
+ color: white;
+}

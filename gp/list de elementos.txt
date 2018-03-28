@@ -1,0 +1,63 @@
+-------------Iniciação-------------
+4.1 Desenvolver termo de abertura de projeto
+13.1 Identificar as partes Interessadas
+
+-------------Planejamento-------------
+4.2 Desenvolver o plano de gerenciamento de projeto
+
+5.1 Planejar o gerenciamento doo escopo
+5.2 coletar os requisitos
+5.3 Definir o escopo
+5.4 Criar a EAP
+
+6.1 Planejar o gerenciamento do cronograma
+6.2 Definir as atividades
+6.3 Sequenciar as atividades
+6.4 Estimar os recursos das atividades
+6.5 Estimar as durações das atividades
+6.6 Desenvolver o cronograma
+
+7.1 Planejar o gerenciamento ds custos
+7.2 estimar os custos
+7.3 Determinar o orçamento
+
+11.1 Planejar o gerenciamento dos riscos
+11.2 Identificar os riscos
+11.3 Realizar a análise qualitativa dos riscos
+11.4 Realizar a análise quantitativa dos riscos
+11.5 Planejar as respostas aos riscos
+
+8.1 Planejar o gerenciamento da qualidade
+9.1 Planejar o gerenciamento dos recursos humanos
+13.2 Planejar o gerenciamento das partes interessadas
+12.1 Planejar o gerenciamento das aquisições
+10.1 Planejar o gerenciamento das comunicações
+
+-------------Processos de execução-------------
+
+4.3 Orientar e gerenciar o trabalho do projeto
+
+10.2 Gerenciar as comunicações
+8.2 Realizar a garantia de qualidade
+12.2 conduzir as aquisições
+9.2 Mobilizar a equipe do projeto
+9.3 Desenvolver equipe do projeto
+9.4 Gerenciar a equipe do projeto
+13.3 Gerenciar o engajamento das partes interessadas
+
+-------------Processos de controle-------------
+4.4 Monitorar o controlar o trabalho do projeto
+4.5 Realizar o controle integrado de mudanças
+5.5 Validar o escopo
+5.6 Controlar o escopo
+6.7 Controlar o cronograma
+7.4 Controlar os custos
+8.3 Controlar a qualidade
+10.3 Controlar as comunicações
+11.6 Controlar os riscos
+12.3 Controlar as aquisições
+13.4 Controlar o engajamento das partes interessadas
+
+ 
+
+ 
