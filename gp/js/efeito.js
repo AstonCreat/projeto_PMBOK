@@ -2,9 +2,12 @@ $(document).ready(function() {
 	
 	$('#inicial_Modal').modal({backdrop: 'static', keyboard: false}) 
 
-
-	// $("drag41").draggable({containment:'document', revert:true});
-
-	$("#drag41").draggable({revert:'true'});
-	$("#drop_ini").droppable({accept:'#drag41'});
+	$('#item, #item').sortable({
+		connectWith: '.card-body',
+		revert: true ,
+		change : (event, ui) => {
+			ui.item[0].classList.remove('col-3');
+			ui.item[0].classList.add('col-12', 'mt-2');
+		}
+	}).disableSelection();
 });
