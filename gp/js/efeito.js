@@ -10,3 +10,7 @@ $(document).ready(function() {
 		}
 	}).disableSelection();
 });
+
+const reset = () => {
+	window.location.href = 	window.location.href;
+}
