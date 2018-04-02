@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	
-	// $('#inicial_Modal').modal({backdrop: 'static', keyboard: false}) 
+	$('#inicial_Modal').modal({backdrop: 'static', keyboard: false}) 
 	$('#inicializar, #inicializar').sortable({
 		connectWith: '#inicializar',
 		change : (event, ui) => {
