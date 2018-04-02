@@ -99,7 +99,7 @@
 		</section>
 	</header>
 
-	<main class="container-fluid mt-4" >
+	<main class="container-fluid mt-4 mb-5" >
 
 		<div class="row" >
 			<!--Inicialização -->
@@ -111,7 +111,7 @@
 					</div>
 					<!-- centralizando card -->
 					<div class="col-12 col-xl-12 d-flex justify-content-center">
-						<div class="card-body col-xl-12 " id="item">
+						<div class="card-body col-xl-12 " id="inicializar">
 
 						</div>
 					</div><!--Fim centralizando card -->
@@ -127,7 +127,7 @@
 					</div>
 					<!-- centralizando card -->
 					<div class="col-12 col-xl-12 d-flex justify-content-center">
-						<div class="card-body col-xl-4">
+						<div class="card-body col-xl-12 flex-row" id="planejamento">
 
 						</div>
 					</div><!-- Fim centralizando card -->
@@ -141,7 +141,7 @@
 
 
 			<!--  Encerramento -->
-			<div class="col-sm-12 col-lg-4 col-xl-4 mt-sm-2">
+			<div class="col-sm-12 col-lg-4 col-xl-3 mt-sm-2">
 				<!-- CARD GRANDE -->
 				<div class="card">
 					<div class="card-header">
@@ -149,7 +149,7 @@
 					</div>
 					<!-- centralizando card -->
 					<div class="col-12 col-xl-12 d-flex justify-content-center">
-						<div class="card-body col-xl-8">
+						<div class="card-body col-xl-12"  id="encerramento">
 
 						</div>
 					</div><!-- Fim centralizando card -->
@@ -165,7 +165,7 @@
 					</div>
 					<!-- centralizando card -->
 					<div class="col-12 col-xl-12 d-flex justify-content-center">
-						<div class="card-body col-xl-8">
+						<div class="card-body col-xl-12" id="execucao">
 
 						</div>
 					</div><!-- Fim centralizando card -->
@@ -181,7 +181,7 @@
 					</div>
 					<!-- centralizando card -->
 					<div class="col-12 col-xl-12 d-flex justify-content-center">
-						<div class="card-body col-xl-8">
+						<div class="card-body col-xl-12 " id="controle">
 
 						</div>
 					</div><!-- Fim centralizando card -->
@@ -190,8 +190,9 @@
 		</div>
 
 		<!-- itens -->	
-		<div class="col-12 mt-3">
-			<div class="row" id="item">
+		<div class="col-12 mt-3 align-content-center">
+
+			<div class="row" id="inicializar">
 				<div class="card-body border border-danger col-3 d-flex justify-content-center move" >
 					<span class="badge badge-danger " style="height: 20px;">4.1</span>
 					&nbsp;
@@ -202,40 +203,287 @@
 					<span class="badge badge-verde" style="height: 20px;">13.1</span>
 					&nbsp;
 					Identificar as partes Interessadas
-				</div>
-				&nbsp;
-				<div class="card-body border border-amarelo col-3 d-flex justify-content-center move">
-					<span class="badge badge-amarelo" style="height: 20px;">4.2</span>
-					&nbsp;
-					Desenvolver o plano de gerenciamento de projeto
-				</div>				
+				</div>			
 			</div>
 
-			<div class="row mt-3">
-				<div class="card-body border border-amarelo col-3 d-flex justify-content-center move">
+			<div class="row mt-3" id="planejamento">
+				<div class="card-body border border-danger col-3 d-flex justify-content-center move d-inline-flex ml-1 mr-1 mt-2">
+					<span class="badge badge-danger" style="height: 20px;">4.2</span>
+					&nbsp;
+					Desenvolver o plano de gerenciamento de projeto
+				</div>	
+				&nbsp;
+				<div class="card-body border border-amarelo col-3 d-flex justify-content-center move d-inline-flex ml-1 mr-1 mt-2">
 					<span class="badge badge-amarelo" style="height: 20px;">5.1</span>
 					&nbsp;
-					 Planejar o gerenciamento doo escopo
+					Planejar o gerenciamento doo escopo
 				</div>
 				&nbsp;
-				<div class="card-body border border-amarelo col-3 d-flex justify-content-center move">
+				<div class="card-body border border-amarelo col-3 d-flex justify-content-center move d-inline-flex ml-1 mr-1 mt-2">
 					<span class="badge badge-amarelo" style="height: 20px;">5.2</span>
 					&nbsp;
 					coletar os requisitos
 				</div>
 				&nbsp;
-				<div class="card-body border border-amarelo col-3 d-flex justify-content-center move">
+				<div class="card-body border border-amarelo col-3 d-flex justify-content-center move d-inline-flex ml-1 mr-1 mt-2">
 					<span class="badge badge-amarelo" style="height: 20px;">5.3</span>
 					&nbsp;
 					Definir o escopo
 				</div>
 				&nbsp;
-				<div class="card-body border border-amarelo col-3 d-flex justify-content-center move mt-2">
+				<div class="card-body border border-amarelo col-3 d-flex justify-content-center move d-inline-flex ml-1 mr-1 mt-2">
 					<span class="badge badge-amarelo" style="height: 20px;">5.4</span>
 					&nbsp;
 					Criar a EAP
 				</div>
+				&nbsp;
+				<div class="card-body border border-roxoClaro col-3 d-flex justify-content-center move d-inline-flex mr-1 mt-2">
+					<span class="badge badge-roxoClaro" style="height: 20px;">6.1</span>
+					&nbsp;
+					Planejar o gerenciamento do cronograma
+				</div>
+				&nbsp;
+				<div class="card-body border border-roxoClaro col-3 d-flex justify-content-center move d-inline-flex  mr-1 mt-2">
+					<span class="badge badge-roxoClaro" style="height: 20px;">6.2</span>
+					&nbsp;
+					Definir as atividades
+				</div>
+				&nbsp;
+				<div class="card-body border border-roxoClaro col-3 d-flex justify-content-center move d-inline-flex  mr-1 mt-2">
+					<span class="badge badge-roxoClaro" style="height: 20px;">6.3</span>
+					&nbsp;
+					Sequenciar as atividades
+				</div>
+				&nbsp;
+				<div class="card-body border border-roxoClaro col-3 d-flex justify-content-center move d-inline-flex  mr-1 mt-2">
+					<span class="badge badge-roxoClaro" style="height: 20px;">6.4</span>
+					&nbsp;
+					Estimar os recursos das atividades
+				</div>
+				&nbsp;
+				<div class="card-body border border-roxoClaro col-3 d-flex justify-content-center move d-inline-flex  mr-1 mt-2">
+					<span class="badge badge-roxoClaro" style="height: 20px;">6.5</span>
+					&nbsp;
+					Estimar as durações das atividades
+				</div>
+				&nbsp;
+				<div class="card-body border border-roxoClaro col-3 d-flex justify-content-center move d-inline-flex  mr-1 mt-2">
+					<span class="badge badge-roxoClaro" style="height: 20px;">6.6</span>
+					&nbsp;
+					Desenvolver o cronograma
+				</div>
+				&nbsp;
+				<div class="card-body border border-roxoClaro col-3 d-flex justify-content-center move d-inline-flex  mr-1 mt-2">
+					<span class="badge badge-roxoClaro" style="height: 20px;">7.1</span>
+					&nbsp;
+					Planejar o gerenciamento ds custos
+				</div>
+				&nbsp;
+				<div class="card-body border border-info col-3 d-flex justify-content-center move d-inline-flex  mr-1 mt-2">
+					<span class="badge badge-info" style="height: 20px;">7.2</span>
+					&nbsp;
+					Estimar os custos
+				</div>
+				&nbsp;
+				<div class="card-body border border-info col-3 d-flex justify-content-center move d-inline-flex  mr-1 mt-2">
+					<span class="badge badge-info" style="height: 20px;">7.3</span>
+					&nbsp;
+					Determinar o orçamento
+				</div>
+				&nbsp;
+				<div class="card-body border border-azulEscuro col-3 d-flex justify-content-center move d-inline-flex  mr-1 mt-2">
+					<span class="badge badge-azulEscuro" style="height: 20px;">11.1</span>
+					&nbsp;
+					Planejar o gerenciamento dos riscos
+				</div>
+				&nbsp;
+				<div class="card-body border border-azulEscuro col-3 d-flex justify-content-center move d-inline-flex  mr-1 mt-2">
+					<span class="badge badge-azulEscuro" style="height: 20px;">11.2</span>
+					&nbsp;
+					Identificar os riscos
+				</div>
+				&nbsp;
+				<div class="card-body border border-azulEscuro col-3 d-flex justify-content-center move d-inline-flex  mr-1 mt-2">
+					<span class="badge badge-azulEscuro" style="height: 20px;">11.3</span>
+					&nbsp;
+					Realizar a análise qualitativa dos riscos
+				</div>
+				&nbsp;
+				<div class="card-body border border-azulEscuro col-3 d-flex justify-content-center move d-inline-flex  mr-1 mt-2">
+					<span class="badge badge-azulEscuro" style="height: 20px;">11.4</span>
+					&nbsp;
+					Realizar a análise quantitativa dos riscos
+				</div>
+				&nbsp;
+				<div class="card-body border border-azulEscuro col-3 d-flex justify-content-center move d-inline-flex  mr-1 mt-2">
+					<span class="badge badge-azulEscuro" style="height: 20px;">11.5</span>
+					&nbsp;
+					Planejar as respostas aos riscos
+				</div>
+				&nbsp;
+				<div class="card-body border border-abobora col-3 d-flex justify-content-center move d-inline-flex  mr-1 mt-2">
+					<span class="badge badge-abobora" style="height: 20px;">8.1</span>
+					&nbsp;
+					Planejar o gerenciamento da qualidade
+				</div>
+				&nbsp;
+				<div class="card-body border border-orange col-3 d-flex justify-content-center move d-inline-flex  mr-1 mt-2">
+					<span class="badge badge-orange" style="height: 20px;">9.1</span>
+					&nbsp;
+					Planejar o gerenciamento dos recursos humanos
+				</div>
+				&nbsp;
+				<div class="card-body border border-verde col-3 d-flex justify-content-center move d-inline-flex  mr-1 mt-2">
+					<span class="badge badge-verde" style="height: 20px;">13.2</span>
+					&nbsp;
+					Planejar o gerenciamento das partes interessadas
+				</div>
+				&nbsp;
+				<div class="card-body border border-roxo col-3 d-flex justify-content-center move d-inline-flex  mr-1 mt-2">
+					<span class="badge badge-roxo" style="height: 20px;">12.1</span>
+					&nbsp;
+					Planejar o gerenciamento das aquisições
+				</div>
+				&nbsp;
+				<div class="card-body border border-verdeDark col-3 d-flex justify-content-center move d-inline-flex  mr-1 mt-2">
+					<span class="badge badge-verdeDark" style="height: 20px;">10.1</span>
+					&nbsp;
+					Planejar o gerenciamento das comunicações
+				</div>
 			</div>
+
+			<div class="row mt-3" id="encerramento">
+				<div class="card-body border border-danger col-3 d-flex justify-content-center move d-inline-flex  mr-1 mt-2">
+					<span class="badge badge-danger" style="height: 20px;">4.6</span>
+					&nbsp;
+					Encerrar o projeto ou fase
+				</div>
+				&nbsp;
+				<div class="card-body border border-roxo col-3 d-flex justify-content-center move d-inline-flex  mr-1 mt-2">
+					<span class="badge badge-roxo" style="height: 20px;">12.4</span>
+					&nbsp;
+					Encerrar as aquisições
+				</div>
+			</div>
+
+			<div class="row mt-3" id="execucao">
+				<div class="card-body border border-danger col-3 d-flex justify-content-center move d-inline-flex  mr-1 mt-2">
+					<span class="badge badge-danger" style="height: 20px;">4.3</span>
+					&nbsp;
+					Orientar e gerenciar o trabalho do projeto
+				</div>
+				&nbsp;
+				<div class="card-body border border-verdeDark col-3 d-flex justify-content-center move d-inline-flex  mr-1 mt-2">
+					<span class="badge badge-verdeDark" style="height: 20px;">10.2</span>
+					&nbsp;
+					Gerenciar as comunicações
+				</div>
+				&nbsp;
+				<div class="card-body border border-roxo col-3 d-flex justify-content-center move d-inline-flex  mr-1 mt-2">
+					<span class="badge badge-roxo" style="height: 20px;">8.2</span>
+					&nbsp;
+					Realizar a garantia de qualidade
+				</div>
+				&nbsp;
+				<div class="card-body border border-roxo col-3 d-flex justify-content-center move d-inline-flex  mr-1 mt-2">
+					<span class="badge badge-roxo" style="height: 20px;">12.2</span>
+					&nbsp;
+					Conduzir as aquisições
+				</div>
+				&nbsp;
+				<div class="card-body border border-orange col-3 d-flex justify-content-center move d-inline-flex  mr-1 mt-2">
+					<span class="badge badge-orange" style="height: 20px;">9.3</span>
+					&nbsp;
+					Desenvolver equipe do projeto
+				</div>
+				&nbsp;
+				<div class="card-body border border-orange col-3 d-flex justify-content-center move d-inline-flex  mr-1 mt-2">
+					<span class="badge badge-orange" style="height: 20px;">9.2</span>
+					&nbsp;
+					Mobilizar a equipe do projeto
+				</div>
+				&nbsp;
+				<div class="card-body border border-orange col-3 d-flex justify-content-center move d-inline-flex  mr-1 mt-2">
+					<span class="badge badge-orange" style="height: 20px;">9.4</span>
+					&nbsp;
+					Gerenciar a equipe do projeto
+				</div>
+				&nbsp;
+				<div class="card-body border border-verde col-3 d-flex justify-content-center move d-inline-flex  mr-1 mt-2">
+					<span class="badge badge-verde" style="height: 20px;">13.3</span>
+					&nbsp;
+					Gerenciar o engajamento das partes interessadas
+				</div>	
+			</div>
+			<div class="row mt-3" id="controle">
+				<div class="card-body border border-danger col-3 d-flex justify-content-center move d-inline-flex  mr-1 mt-2">
+					<span class="badge badge-danger" style="height: 20px;">4.4</span>
+					&nbsp;
+					Monitorar o controlar o trabalho do projeto
+				</div>
+				&nbsp;
+				<div class="card-body border border-danger col-3 d-flex justify-content-center move d-inline-flex  mr-1 mt-2">
+					<span class="badge badge-danger" style="height: 20px;">4.5</span>
+					&nbsp;
+					Realizar o controle integrado de mudanças
+				</div>
+				&nbsp;
+				<div class="card-body border border-amarelo col-3 d-flex justify-content-center move d-inline-flex  mr-1 mt-2">
+					<span class="badge badge-amarelo" style="height: 20px;">5.5</span>
+					&nbsp;
+					Validar o escopo
+				</div>
+				&nbsp;
+				<div class="card-body border border-amarelo col-3 d-flex justify-content-center move d-inline-flex  mr-1 mt-2">
+					<span class="badge badge-amarelo" style="height: 20px;">5.6</span>
+					&nbsp;
+					Controlar o escopo
+				</div>
+				&nbsp;
+				<div class="card-body border border-roxoClaro col-3 d-flex justify-content-center move d-inline-flex  mr-1 mt-2">
+					<span class="badge badge-roxoClaro" style="height: 20px;">6.7</span>
+					&nbsp;
+					Controlar o cronograma
+				</div>
+				&nbsp;
+				<div class="card-body border border-info col-3 d-flex justify-content-center move d-inline-flex  mr-1 mt-2">
+					<span class="badge badge-info" style="height: 20px;">7.4</span>
+					&nbsp;
+					Controlar os custos
+				</div>
+				&nbsp;
+				<div class="card-body border border-abobora col-3 d-flex justify-content-center move d-inline-flex  mr-1 mt-2">
+					<span class="badge badge-abobora" style="height: 20px;">8.3</span>
+					&nbsp;
+					Controlar a qualidade
+				</div>
+				&nbsp;
+				<div class="card-body border border-verdeDark col-3 d-flex justify-content-center move d-inline-flex  mr-1 mt-2">
+					<span class="badge badge-verdeDark" style="height: 20px;">10.3</span>
+					&nbsp;
+					Controlar as comunicações
+				</div>
+				&nbsp;
+				<div class="card-body border border-azulEscuro col-3 d-flex justify-content-center move d-inline-flex  mr-1 mt-2">
+					<span class="badge badge-azulEscuro" style="height: 20px;">11.6</span>
+					&nbsp;
+					Controlar os riscos
+				</div>
+				&nbsp;
+				<div class="card-body border border-roxo col-3 d-flex justify-content-center move d-inline-flex  mr-1 mt-2">
+					<span class="badge badge-roxo" style="height: 20px;">12.3</span>
+					&nbsp;
+					Controlar as aquisições
+				</div>
+				&nbsp;
+				<div class="card-body border border-verde col-3 d-flex justify-content-center move d-inline-flex  mr-1 mt-2">
+					<span class="badge badge-verde" style="height: 20px;">13.4</span>
+					&nbsp;
+					Controlar o engajamento das partes interessadas
+				</div>
+				&nbsp;
+			</div>
+			
 
 			
 		</div>

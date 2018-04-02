@@ -8,7 +8,7 @@
   background:#6f42c1!important;
 }
 .bg-purple-white{
-  background:#9932cc!important;
+  background:#C782B9!important;
 }
 .bg-yellow{
   background:#ffc107 !important;
@@ -48,6 +48,54 @@
 .badge-verde {
   color: #fff;
   background-color: #9bd771;
+}
+
+.border-verdeDark {
+  border-color: #28a745 !important;
+}
+.badge-verdeDark {
+  color: #fff;
+  background-color: #28a745;
+}
+
+.border-roxoClaro {
+  border-color: #C782B9 !important;
+}
+.badge-roxoClaro {
+  color: #fff;
+  background-color: #C782B9;
+}
+
+.border-roxo {
+  border-color: #6f42c1 !important;
+}
+.badge-roxo {
+  color: #fff;
+  background-color: #6f42c1;
+}
+
+.border-abobora {
+  border-color: #8F5444 !important;
+}
+.badge-abobora {
+  color: #fff;
+  background-color: #8F5444;
+}
+
+.border-orange {
+  border-color: #fd7e14 !important;
+}
+.badge-orange {
+  color: #fff;
+  background-color: #fd7e14;
+}
+
+.border-azulEscuro {
+  border-color: #495678 !important;
+}
+.badge-azulEscuro {
+  color: #fff;
+  background-color: #495678;
 }
 
 .carousel-inner img {
