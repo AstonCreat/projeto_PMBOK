@@ -1,7 +1,6 @@
 $(document).ready(function() {
 	
 	$('#inicial_Modal').modal({backdrop: 'static', keyboard: false}) 
-
 	$('#item, #item').sortable({
 		connectWith: '.card-body',
 		revert: true ,
