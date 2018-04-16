@@ -39,7 +39,7 @@
 
 10.2 Gerenciar as comunicações
 8.2 Realizar a garantia de qualidade
-12.2 conduzir as aquisições
+12.2 Conduzir as aquisições
 9.2 Mobilizar a equipe do projeto
 9.3 Desenvolver equipe do projeto
 9.4 Gerenciar a equipe do projeto
@@ -57,6 +57,10 @@
 11.6 Controlar os riscos
 12.3 Controlar as aquisições
 13.4 Controlar o engajamento das partes interessadas
+
+-------------Processos de Encerramento-------------
+4.6 Encerrar o projeto ou fase
+12.4 Encerrar as aquisições
 
  
 
